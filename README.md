@@ -1,20 +1,13 @@
-# pipeinit
+# pipeManage
 
 > A Vue.js project
 
-## Build Setup
+最近公司做直播功能出了一个个性化很高的需求
+概括为：
 
-``` bash
-# install dependencies
-npm install
+上方为待审核区域，通道数一定
+每日有不定量申请需要安排在通道中，申请在时间上不能有重叠
+当上方待审核通道排满后，剩余申请排入下方冲突通道，下方冲突区域申请独占一个通道
+所有申请都可进行手动拖动切换通道
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
+npm run dev 可预览
